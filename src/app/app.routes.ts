@@ -4,12 +4,15 @@ import {ServiciosComponent} from './components/servicios/servicios.component';
 import {PortafolioComponent} from './components/portafolio/portafolio.component';
 import {ContactoComponent} from './components/contacto/contacto.component';
 import {HomeComponent} from './components/home/home.component';
+import {InicioComponent} from './components/inicio/inicio.component';
 const APP_ROUTES: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'nosotros', component: NosotrosComponent },
   { path: 'portafolio', component: PortafolioComponent },
   { path: 'servicios', component: ServiciosComponent },
   { path: 'contacto', component: ContactoComponent },
+  { path: 'inicio', component: InicioComponent },
+
 
   { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];

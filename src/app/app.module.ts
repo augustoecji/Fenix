@@ -14,7 +14,8 @@ import { ServiciosComponent } from './components/servicios/servicios.component';
 import { PortafolioComponent } from './components/portafolio/portafolio.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { HomeComponent } from './components/home/home.component';
-import {NavbarComponent} from './components/shared/navbar/navbar.component';
+import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { InicioComponent } from './components/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {NavbarComponent} from './components/shared/navbar/navbar.component';
     PortafolioComponent,
     ContactoComponent,
     HomeComponent,
-    NavbarComponent
+    NavbarComponent,
+    InicioComponent
   ],
   imports: [
     BrowserModule,

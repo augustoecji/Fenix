@@ -1,0 +1,37 @@
+video{
+  position: fixed;
+  min-width: 100%;
+  max-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+
+}
+.ajustes{
+  display: block;
+  width:95%;
+  margin:0 auto;
+  padding:300px 0px 71px;
+  text-align: left;
+  color: yellow;
+}
+
+.heading{font-family:Georgia, "Times New Roman", Times, serif;}
+
+.btn{
+  display:inline-block;
+  padding:8px 18px 10px;
+  text-transform:uppercase;
+  border:2px solid;
+  color: yellow;
+    }
+
+.overlay{
+  position: relative;
+
+}
+.bgded{
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
